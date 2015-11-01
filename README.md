@@ -13,7 +13,13 @@ Installation
 
 To install everything just run the following commands:
 
-    git submodule init
+    git clone --recursive git@github.com:anantoni/dot-emacs.git
+    cd dot-emacs
+    make
+    
+    
+To update an existing installation run the following commands:
+    
     git submodule update
     make
 
