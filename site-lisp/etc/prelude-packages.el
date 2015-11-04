@@ -10,7 +10,7 @@
 (require 'package)
 
 (defconst prelude-packages
-  '(auctex f clojure-mode coffee-mode groovy-mode haskell-mode
+  '(auctex dash f clojure-mode coffee-mode groovy-mode haskell-mode
            markdown-mode javap-mode deft gist paredit projectile
            rainbow-mode solarized-theme color-theme zenburn-theme
            auto-complete auto-complete-c-headers ac-dabbrev
