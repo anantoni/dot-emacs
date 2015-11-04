@@ -51,8 +51,7 @@
  ;; configure package repositories
  '(package-archives
    (quote (("gnu" . "http://elpa.gnu.org/packages/")
-           ("melpa" . "http://melpa.milkbox.net/packages/")
-           ("marmalade" . "http://marmalade-repo.org/packages/")))))
+           ("melpa" . "http://melpa.milkbox.net/packages/")))))
 
 
 ;; uncomment the following line to load CEDET (dev version)
@@ -359,9 +358,6 @@
   (menu-bar-mode 0))
 
 (use-package zenburn-theme
-  :ensure t)
-
-(use-package tbemail
   :ensure t)
 
 (use-package expand-region
